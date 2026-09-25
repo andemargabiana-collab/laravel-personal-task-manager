@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title','Add Task') @section('content')<div class="card"><div class="row"><h1>Add Task</h1><a class="btn secondary" href="{{ route('tasks.index') }}">Back</a></div><form method="POST" action="{{ route('tasks.store') }}">@csrf @include('tasks.form')<button class="btn primary">Save Task</button></form></div>@endsection
