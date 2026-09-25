@@ -1,0 +1,22 @@
+[2026-09-25 09:20:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:210)
+[stacktrace]
+#0 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(135): Illuminate\\Log\\LogManager->resolve()
+#1 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(122): Illuminate\\Log\\LogManager->get()
+#2 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(274): Illuminate\\Log\\LogManager->error()
+#4 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(454): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#5 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(157): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#6 /workspaces/laravel-personal-task-manager/artisan(6): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
+[2026-09-25 09:20:39] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException(code: 0): The \"\" directory does not exist. at /workspaces/laravel-personal-task-manager/vendor/symfony/finder/Finder.php:655)
+[stacktrace]
+#0 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->in()
+#1 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles()
+#2 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#3 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(265): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#4 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
+#5 /workspaces/laravel-personal-task-manager/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 /workspaces/laravel-personal-task-manager/artisan(6): Illuminate\\Foundation\\Console\\Kernel->handle()
+#7 {main}
+"} 
